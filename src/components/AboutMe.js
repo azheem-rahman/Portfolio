@@ -29,21 +29,26 @@ const AboutMe = () => {
             </div>
           </div>
           <div className="col">
-            <h1>About Me</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu
-              pulvinar augue. Suspendisse dui nisl, sodales in ex at, gravida
-              tempor arcu. Suspendisse condimentum eros lacus, sit amet accumsan
-              turpis pretium id.
-            </p>
-            <p>
-              Suspendisse sollicitudin, sem eu porta sollicitudin, dolor enim
-              pharetra ex, et tempor ante sapien vitae ligula. Praesent vel
-              tortor imperdiet, fringilla magna vel, tristique orci. In finibus
-              tortor sed cursus luctus. Quisque molestie sagittis ante, non
-              iaculis metus commodo id. Morbi sapien sapien, porta dapibus
-              pulvinar quis, tempus quis eros.
-            </p>
+            <div className="row">
+              <h1>About Me</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                eu pulvinar augue. Suspendisse dui nisl, sodales in ex at,
+                gravida tempor arcu. Suspendisse condimentum eros lacus, sit
+                amet accumsan turpis pretium id.
+              </p>
+              <p>
+                Suspendisse sollicitudin, sem eu porta sollicitudin, dolor enim
+                pharetra ex, et tempor ante sapien vitae ligula. Praesent vel
+                tortor imperdiet, fringilla magna vel, tristique orci. In
+                finibus tortor sed cursus luctus. Quisque molestie sagittis
+                ante, non iaculis metus commodo id. Morbi sapien sapien, porta
+                dapibus pulvinar quis, tempus quis eros.
+              </p>
+            </div>
+            <div className="row">
+              <h1>Insert Experience Flowchart here</h1>
+            </div>
           </div>
         </div>
       </div>
