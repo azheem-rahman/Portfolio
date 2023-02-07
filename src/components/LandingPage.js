@@ -5,20 +5,24 @@ const LandingPage = () => {
   return (
     <div>
       <div
-        className="container"
-        style={{ border: "1px solid rgba(0, 0, 0, 0.05)" }}
+        className="container d-flex align-items-center"
+        style={{ height: "80vh" }}
       >
-        <div className="row">
-          <div className="col">
-            <h1>Hi there!</h1>
-            <h1>I'm Azheem, an aspiring software engineer.</h1>
+        <div className="row align-items-center">
+          <div className="col text-end">
+            <h2>Hi there!</h2>
+            <h2>
+              I'm Azheem, a recent software engineering bootcamp graduate.
+            </h2>
             <h2>Welcome to my Portfolio.</h2>
           </div>
-          <div className="col d-flex justify-content-center">
+          <div className="col justify-content-center">
             <img
               src={LandingPageProfilePhoto}
+              className="img-fluid"
               width={200}
               alt="landing-page-profile-photo"
+              style={{ borderRadius: "10px" }}
             />
           </div>
         </div>
