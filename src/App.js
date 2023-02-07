@@ -1,5 +1,4 @@
 import AboutMe from "./components/AboutMe";
-import Contact from "./components/Contact";
 import LandingPage from "./components/LandingPage";
 import NavBar from "./components/NavBar";
 import Portfolio from "./components/Portfolio";
@@ -23,8 +22,8 @@ function App() {
         <Portfolio />
       </div>
       <br />
-      <div>
-        <Contact />
+      <div className="container d-flex align-items-center justify-content-center">
+        <h6>Created and Designed by Azheem</h6>
       </div>
     </div>
   );
