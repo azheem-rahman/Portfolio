@@ -31,8 +31,8 @@ const AboutMe = () => {
   };
 
   return (
-    <div>
-      <div className="container">
+    <div id="about-me">
+      <div className="container" style={{ height: "150vh" }}>
         <div className="row">
           <div className="col d-flex align-items-center justify-content-center">
             <div className="row">
@@ -96,7 +96,9 @@ const AboutMe = () => {
           </div>
           <div className="col">
             <div className="row">
-              <h1>About Me</h1>
+              <h4>
+                <span style={{ backgroundColor: "#2E5A88" }}>About Me</span>
+              </h4>
               <p>
                 Hello! My name is Azheem and I enjoy seeing my creations come to
                 life.
@@ -118,7 +120,9 @@ const AboutMe = () => {
             </div>
             <br />
             <div className="row">
-              <h1>My Journey</h1>
+              <h4>
+                <span style={{ backgroundColor: "#2E5A88" }}>My Journey</span>
+              </h4>
               <div className="col-2 d-flex align-self-center">
                 <ButtonGroup vertical className="gap-2">
                   <Button variant="outline-light" onClick={handleGAButtonClick}>
@@ -138,7 +142,7 @@ const AboutMe = () => {
                   </Button>
                 </ButtonGroup>
               </div>
-              <div className="col" style={{ height: "50vh" }}>
+              <div className="col">
                 <div className={visibleGA ? "GA" : "d-none"}>
                   <h5>Software Engineering Immersive Programme Graduate</h5>
                   <h6>
