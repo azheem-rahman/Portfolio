@@ -1,0 +1,50 @@
+/* *,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+
+/* nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+} */
+
+.HashLink {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  padding: 10px;
+}
+
+.HashLink::before,
+.HashLink::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 0;
+  background-color: white;
+  transition: 0.5s;
+}
+
+.HashLink::after {
+  left: 0px;
+  bottom: 5px;
+}
+
+.HashLink::before {
+  right: 0px;
+  top: 5px;
+}
+
+.HashLink:hover {
+  color: white;
+}
+.HashLink:hover:after,
+.HashLink:hover:before {
+  width: 100%;
+}
