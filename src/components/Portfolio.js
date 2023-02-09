@@ -13,6 +13,7 @@ const Portfolio = () => {
         <h2>Projects</h2>
         <div className="row">
           <div className="col">
+            {/* BuyHDB Card */}
             <Card bg="dark" border="light" text="white">
               <Card.Body>
                 <div className="row">
@@ -21,13 +22,13 @@ const Portfolio = () => {
                       className="card-img-top"
                       src={BuyHDBLoginPage}
                       alt="buyhdb-login-screenshot"
-                      style={{ padding: "5px" }}
+                      style={{ padding: "5px", borderRadius: "10px" }}
                     />
                     <img
                       className="card-img-top"
                       src={BuyHDBSearchPage}
                       alt="buyhdb-search-screenshot"
-                      style={{ padding: "5px" }}
+                      style={{ padding: "5px", borderRadius: "10px" }}
                     />
                   </div>
                   <div className="col align-self-center">
@@ -35,12 +36,9 @@ const Portfolio = () => {
                       <span style={{ backgroundColor: "#2E5A88" }}>BuyHDB</span>
                     </Card.Title>
                     <Card.Text>
-                      <h6>
-                        Full-stack web application to provide users with a
-                        general idea of resale HDB market trends. Leveraged on
-                        data.gov.sg API to retrieve past HDB resale transaction
-                        records.
-                      </h6>
+                      Full-stack web application to provide users with a general
+                      idea of resale HDB market trends. Leveraged on data.gov.sg
+                      API to retrieve past HDB resale transaction records.
                     </Card.Text>
                     <Card.Text>
                       <i>
@@ -86,21 +84,10 @@ const Portfolio = () => {
             </Card>
             <br />
 
-            {/* <Card
-              bg="dark"
-              border="light"
-              text="white"
-              style={{ height: "20rem" }}
-            >
+            {/* ItsRainingRaincoats Card */}
+            <Card bg="dark" border="light" text="white">
               <Card.Body>
                 <div className="row">
-                  <div className="col">
-                    <img
-                      className="card-img-top"
-                      src={BuyHDBLoginPage}
-                      alt="Card image cap"
-                    />
-                  </div>
                   <div className="col align-self-center">
                     <Card.Title>
                       <span style={{ backgroundColor: "#2E5A88" }}>
@@ -115,17 +102,21 @@ const Portfolio = () => {
                       </p>
                     </Card.Text>
                   </div>
+                  <div className="col">
+                    <img
+                      className="card-img-top"
+                      src={BuyHDBLoginPage}
+                      alt="Card image cap"
+                      style={{ padding: "5px", borderRadius: "10px" }}
+                    />
+                  </div>
                 </div>
               </Card.Body>
             </Card>
-            <br /> */}
+            <br />
 
-            {/* <Card
-              bg="dark"
-              border="light"
-              text="white"
-              style={{ height: "20rem" }}
-            >
+            {/* Colour Pop Card */}
+            <Card bg="dark" border="light" text="white">
               <Card.Body>
                 <div className="row">
                   <div className="col">
@@ -133,6 +124,7 @@ const Portfolio = () => {
                       className="card-img-top"
                       src={ColourPopScreenshot}
                       alt="colour-pop-screenshot"
+                      style={{ padding: "5px", borderRadius: "10px" }}
                     />
                   </div>
                   <div className="col align-self-center">
@@ -142,16 +134,16 @@ const Portfolio = () => {
                       </span>
                     </Card.Title>
                     <Card.Text>
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                      <p>
-                        <i>Technologies used: </i>
-                      </p>
+                      A simple memory game built using HTML, CSS, and Vanilla
+                      JavaScript. Players given 30 seconds to remember 10
+                      circles containing randomised colours and numbers and
+                      another 30 seconds to input their guess by dragging,
+                      dropping, and typing answers.
                     </Card.Text>
                   </div>
                 </div>
               </Card.Body>
-            </Card> */}
+            </Card>
           </div>
         </div>
       </div>
