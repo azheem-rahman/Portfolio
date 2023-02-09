@@ -2,10 +2,6 @@ import React, { useState } from "react";
 import { Button, ButtonGroup } from "react-bootstrap";
 
 import AboutMeProfilePhoto from "../assets/AboutMeProfilePhoto.jpg";
-import IconEmail from "../assets/IconEmail.svg";
-import IconLinkedin from "../assets/IconLinkedin.svg";
-import IconLocation from "../assets/IconLocation.svg";
-import IconGitHub from "../assets/IconGitHub.svg";
 
 const AboutMe = () => {
   const [visibleGA, setVisibleGA] = useState(true);
