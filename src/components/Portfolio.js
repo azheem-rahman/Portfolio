@@ -5,8 +5,6 @@ import BuyHDBLoginPage from "../assets/BuyHDBLoginPage.jpg";
 import BuyHDBSearchPage from "../assets/BuyHDBSearchPage.jpg";
 
 import ColourPopScreenshot from "../assets/ColourPopScreenshot.jpg";
-import IconWebsiteLink from "../assets/IconWebsiteLink.svg";
-import IconGitHub from "../assets/IconGitHub.svg";
 
 const Portfolio = () => {
   return (
