@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.52997750.css",
-    "main.js": "/Portfolio/static/js/main.0196f848.js",
+    "main.css": "/Portfolio/static/css/main.cd3b9671.css",
+    "main.js": "/Portfolio/static/js/main.a162844b.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/LandingPageProfilePhoto.jpg": "/Portfolio/static/media/LandingPageProfilePhoto.0a57c9bd9d3a427a554d.jpg",
     "static/media/BuyHDBLoginPage.jpg": "/Portfolio/static/media/BuyHDBLoginPage.569590407c88ad6f8fbc.jpg",
@@ -15,12 +15,12 @@
     "static/media/IRRWorkerHome.jpg": "/Portfolio/static/media/IRRWorkerHome.a791f0d8379ef95324d0.jpg",
     "static/media/IRRLoginPage.jpg": "/Portfolio/static/media/IRRLoginPage.3c8c91c842b85f2df79d.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.52997750.css.map": "/Portfolio/static/css/main.52997750.css.map",
-    "main.0196f848.js.map": "/Portfolio/static/js/main.0196f848.js.map",
+    "main.cd3b9671.css.map": "/Portfolio/static/css/main.cd3b9671.css.map",
+    "main.a162844b.js.map": "/Portfolio/static/js/main.a162844b.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.52997750.css",
-    "static/js/main.0196f848.js"
+    "static/css/main.cd3b9671.css",
+    "static/js/main.a162844b.js"
   ]
 }
