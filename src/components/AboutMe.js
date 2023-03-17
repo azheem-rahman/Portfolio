@@ -28,7 +28,15 @@ const AboutMe = () => {
 
   return (
     <div id="about-me">
-      <div className="container" style={{ height: "140vh" }}>
+      <div
+        className="container"
+        style={{
+          height: "100vh",
+          paddingTop: "10vh",
+          display: "grid",
+          placeItems: "center",
+        }}
+      >
         <div className="row d-flex align-items-center">
           <div className="col">
             <div className="row ">
@@ -142,7 +150,7 @@ const AboutMe = () => {
               </div>
               <div
                 className="row d-flex align-items-center"
-                style={{ height: "50vh" }}
+                style={{ height: "30vh" }}
               >
                 <div className="col-2 ">
                   <ButtonGroup size="sm" vertical className="gap-2">
@@ -168,7 +176,7 @@ const AboutMe = () => {
                 </div>
                 <div className="col">
                   <div className={visibleGA ? "GA" : "d-none"}>
-                    <h5>Software Engineering Immersive Programme Graduate</h5>
+                    <h5>Software Engineering Bootcamp Graduate</h5>
                     <h6>
                       <i>General Assembly</i>
                     </h6>
@@ -187,7 +195,7 @@ const AboutMe = () => {
                   <div className={visibleNCS ? "NCS" : "d-none"}>
                     <h5>Infrastructure Engineer</h5>
                     <h6>
-                      <i>NCS Pte Ltd</i>
+                      <i>NCS Group</i>
                     </h6>
                     <h6>Oct 2021 - May 2022</h6>
                     <ul style={{ padding: "0px" }}>
