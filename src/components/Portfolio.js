@@ -16,7 +16,7 @@ import ColourPopScreenshot from "../assets/ColourPopScreenshot.jpg";
 const Portfolio = () => {
   return (
     <div id="portfolio">
-      <div className="container">
+      <div className="container" style={{ paddingTop: "10vh" }}>
         <h2>Projects</h2>
         <div className="row">
           <div className="col">
@@ -25,12 +25,12 @@ const Portfolio = () => {
               <Card.Body>
                 <div className="row">
                   <div className="col">
-                    <img
+                    {/* <img
                       className="card-img-top"
                       src={BuyHDBLoginPage}
                       alt="buyhdb-login-screenshot"
                       style={{ padding: "5px", borderRadius: "10px" }}
-                    />
+                    /> */}
                     <img
                       className="card-img-top"
                       src={BuyHDBSearchPage}
@@ -167,7 +167,7 @@ const Portfolio = () => {
                       style={{
                         padding: "2px",
                         borderRadius: "5px",
-                        maxWidth: "12.5vw",
+                        maxWidth: "12vw",
                       }}
                     />
                     <img
@@ -177,7 +177,7 @@ const Portfolio = () => {
                       style={{
                         padding: "2px",
                         borderRadius: "5px",
-                        maxWidth: "12.5vw",
+                        maxWidth: "12vw",
                       }}
                     />
                     <img
@@ -187,10 +187,10 @@ const Portfolio = () => {
                       style={{
                         padding: "2px",
                         borderRadius: "5px",
-                        maxWidth: "12.5vw",
+                        maxWidth: "12vw",
                       }}
                     />
-                    <img
+                    {/* <img
                       className="card-img-top"
                       src={IRRDonorHome}
                       alt="Card image cap"
@@ -199,8 +199,8 @@ const Portfolio = () => {
                         borderRadius: "5px",
                         maxWidth: "12.5vw",
                       }}
-                    />
-                    <img
+                    /> */}
+                    {/* <img
                       className="card-img-top"
                       src={IRRDonorItemStatus}
                       alt="Card image cap"
@@ -209,8 +209,8 @@ const Portfolio = () => {
                         borderRadius: "5px",
                         maxWidth: "12.5vw",
                       }}
-                    />
-                    <img
+                    /> */}
+                    {/* <img
                       className="card-img-top"
                       src={IRRDonorDropOff}
                       alt="Card image cap"
@@ -219,7 +219,7 @@ const Portfolio = () => {
                         borderRadius: "5px",
                         maxWidth: "12.5vw",
                       }}
-                    />
+                    /> */}
                   </div>
                 </div>
               </Card.Body>
