@@ -6,8 +6,8 @@ import styles from "./NavBar.module.css";
 
 const NavBar = () => {
   return (
-    <div>
-      <Navbar variant="dark" expand="sm">
+    <div className="navbar">
+      <Navbar fixed="top" bg="secondary" variant="dark" expand="sm">
         <Container className="align-middle">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
