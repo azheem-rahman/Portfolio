@@ -35,7 +35,7 @@ const Portfolio = () => {
                       className="card-img-top"
                       src={BuyHDBSearchPage}
                       alt="buyhdb-search-screenshot"
-                      style={{ padding: "5px", borderRadius: "10px" }}
+                      style={{ padding: "0.313rem", borderRadius: "0.625rem" }}
                     />
                   </div>
                   <div className="col align-self-center">
@@ -107,12 +107,6 @@ const Portfolio = () => {
                       and volunteers.
                     </Card.Text>
                     <Card.Text>
-                      Worked in a team of 4 software engineer bootcamp students
-                      and collaborated with 3 UX design students to ideate,
-                      evaluate, and refine user experience and design of
-                      application.
-                    </Card.Text>
-                    <Card.Text>
                       <i>
                         Technologies used: ReactJS, ExpressJS, MongoDB, Node.js,
                         Bcrypt, UUID, Bootstrap
@@ -160,66 +154,29 @@ const Portfolio = () => {
                     </div>
                   </div>
                   <div className="col">
-                    <img
-                      className="card-img-top"
-                      src={IRRLoginPage}
-                      alt="Card image cap"
-                      style={{
-                        padding: "2px",
-                        borderRadius: "5px",
-                        maxWidth: "12vw",
-                      }}
-                    />
-                    <img
-                      className="card-img-top"
-                      src={IRRWorkerHome}
-                      alt="Card image cap"
-                      style={{
-                        padding: "2px",
-                        borderRadius: "5px",
-                        maxWidth: "12vw",
-                      }}
-                    />
-                    <img
-                      className="card-img-top"
-                      src={IRRWorkerRequestItem}
-                      alt="Card image cap"
-                      style={{
-                        padding: "2px",
-                        borderRadius: "5px",
-                        maxWidth: "12vw",
-                      }}
-                    />
-                    {/* <img
-                      className="card-img-top"
-                      src={IRRDonorHome}
-                      alt="Card image cap"
-                      style={{
-                        padding: "2px",
-                        borderRadius: "5px",
-                        maxWidth: "12.5vw",
-                      }}
-                    /> */}
-                    {/* <img
-                      className="card-img-top"
-                      src={IRRDonorItemStatus}
-                      alt="Card image cap"
-                      style={{
-                        padding: "2px",
-                        borderRadius: "5px",
-                        maxWidth: "12.5vw",
-                      }}
-                    /> */}
-                    {/* <img
-                      className="card-img-top"
-                      src={IRRDonorDropOff}
-                      alt="Card image cap"
-                      style={{
-                        padding: "2px",
-                        borderRadius: "5px",
-                        maxWidth: "12.5vw",
-                      }}
-                    /> */}
+                    <div className="row">
+                      <div className="col">
+                        <img
+                          className="card-img-top"
+                          src={IRRLoginPage}
+                          alt="Card image cap"
+                        />
+                      </div>
+                      <div className="col">
+                        <img
+                          className="card-img-top"
+                          src={IRRWorkerHome}
+                          alt="Card image cap"
+                        />
+                      </div>
+                      <div className="col">
+                        <img
+                          className="card-img-top"
+                          src={IRRWorkerRequestItem}
+                          alt="Card image cap"
+                        />
+                      </div>
+                    </div>
                   </div>
                 </div>
               </Card.Body>
@@ -235,7 +192,7 @@ const Portfolio = () => {
                       className="card-img-top"
                       src={ColourPopScreenshot}
                       alt="colour-pop-screenshot"
-                      style={{ padding: "5px", borderRadius: "10px" }}
+                      style={{ padding: "0.313rem", borderRadius: "0.625rem" }}
                     />
                   </div>
                   <div className="col align-self-center">

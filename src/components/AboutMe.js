@@ -31,7 +31,7 @@ const AboutMe = () => {
       <div
         className="container"
         style={{
-          height: "100vh",
+          minHeight: "100vh",
           paddingTop: "10vh",
           display: "grid",
           placeItems: "center",
@@ -39,26 +39,26 @@ const AboutMe = () => {
       >
         <div className="row d-flex align-items-center">
           <div className="col">
-            <div className="row ">
+            <div className="row">
               <div className="col d-flex justify-content-end">
                 <img
                   src={AboutMeProfilePhoto}
                   className="rounded-circle"
-                  width={100}
+                  width={150}
                   alt="about-me-profile-photo"
                 />
               </div>
 
               <div className="col d-flex align-items-center">
-                <ul style={{ listStyle: "none", padding: "0px" }}>
-                  <li style={{ paddingBottom: "10px" }}>Azheem Rahman</li>
+                <ul style={{ listStyle: "none", padding: "0" }}>
+                  <li style={{ paddingBottom: "1rem" }}>Azheem Rahman</li>
                   <li>
                     <ButtonGroup>
                       <Button
                         variant="outline-light"
-                        size="sm"
+                        size="md"
                         href="https://www.linkedin.com/in/azheem/"
-                        style={{ marginRight: "10px" }}
+                        style={{ marginRight: "1rem" }}
                         className="rounded-circle"
                       >
                         <svg
@@ -74,9 +74,9 @@ const AboutMe = () => {
                       </Button>
                       <Button
                         variant="outline-light"
-                        size="sm"
+                        size="md"
                         href="https://github.com/azheem-rahman"
-                        style={{ marginRight: "10px" }}
+                        style={{ marginRight: "1rem" }}
                         className="rounded-circle"
                       >
                         <svg
@@ -92,9 +92,9 @@ const AboutMe = () => {
                       </Button>
                       <Button
                         variant="outline-light"
-                        size="sm"
+                        size="md"
                         href="mailto: azheem.rahman@gmail.com"
-                        style={{ marginRight: "10px" }}
+                        style={{ marginRight: "1rem" }}
                         className="rounded-circle"
                       >
                         <svg
@@ -150,7 +150,7 @@ const AboutMe = () => {
               </div>
               <div
                 className="row d-flex align-items-center"
-                style={{ height: "30vh" }}
+                style={{ minHeight: "30vh" }}
               >
                 <div className="col-2 ">
                   <ButtonGroup size="sm" vertical className="gap-2">
@@ -181,7 +181,7 @@ const AboutMe = () => {
                       <i>General Assembly</i>
                     </h6>
                     <h6>Aug 2022 - Nov 2022</h6>
-                    <ul style={{ padding: "0px" }}>
+                    <ul style={{ padding: "0" }}>
                       <li>
                         Full-stack web development, with strong focus on
                         project-based learning and group programming
@@ -198,7 +198,7 @@ const AboutMe = () => {
                       <i>NCS Group</i>
                     </h6>
                     <h6>Oct 2021 - May 2022</h6>
-                    <ul style={{ padding: "0px" }}>
+                    <ul style={{ padding: "0" }}>
                       <li>
                         Attached to the System Administrator team while also
                         undergoing trainings focused on virtualisation
@@ -216,7 +216,7 @@ const AboutMe = () => {
                       <i>National University of Singapore</i>
                     </h6>
                     <h6>Aug 2017 - Jun 2021</h6>
-                    <ul style={{ padding: "0px" }}>
+                    <ul style={{ padding: "0" }}>
                       <li>
                         Attained Bachelor of Engineering (Mechanical
                         Engineering) with Honours (Merit)

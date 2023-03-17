@@ -2,28 +2,33 @@
   position: relative;
   text-decoration: none;
   color: white;
-  letter-spacing: 0.5px;
-  padding: 10px;
+  letter-spacing: 0.031rem;
+  /* letter-spacing: 0.5px; */
+  padding: 0.625rem;
+  /* padding: 10px; */
 }
 
 .HashLink::before,
 .HashLink::after {
   content: "";
   position: absolute;
-  height: 3px;
+  height: 0.188rem;
+  /* height: 3px; */
   width: 0;
   background-color: white;
   transition: 0.5s;
 }
 
 .HashLink::after {
-  left: 0px;
-  bottom: 5px;
+  left: 0;
+  bottom: 0.313rem;
+  /* bottom: 5px; */
 }
 
 .HashLink::before {
-  right: 0px;
-  top: 5px;
+  right: 0;
+  top: 0.313rem;
+  /* top: 5px; */
 }
 
 .HashLink:hover {
