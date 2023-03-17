@@ -34,7 +34,11 @@ const NavBar = () => {
                 Projects
               </HashLink>
               <Nav.Link href="https://drive.google.com/file/d/1OCmNJwYmBL99OXM_wobIMT-L7jkQvyE8/view?usp=sharing">
-                <Button variant="outline-light" size="sm">
+                <Button
+                  className={styles.Button}
+                  variant="outline-light"
+                  size="sm"
+                >
                   Resume
                 </Button>
               </Nav.Link>
