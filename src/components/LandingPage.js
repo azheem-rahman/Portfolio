@@ -1,5 +1,4 @@
 import React from "react";
-import LandingPageProfilePhoto from "../assets/LandingPageProfilePhoto.jpg";
 
 import styles from "./LandingPage.module.css";
 
