@@ -13,8 +13,7 @@ const LandingPage = () => {
             </div>
             <h5>
               I'm <span style={{ backgroundColor: "#2E5A88" }}>Azheem</span>, a
-              recent software engineering bootcamp graduate with a new found
-              passion in coding.
+              Full Stack Developer and I like to code things.
             </h5>
             <h5>Welcome to my Portfolio.</h5>
           </div>

@@ -4,23 +4,47 @@ import { Button, ButtonGroup } from "react-bootstrap";
 import AboutMeProfilePhoto from "../assets/AboutMeProfilePhoto.jpg";
 
 const AboutMe = () => {
-  const [visibleGA, setVisibleGA] = useState(true);
+  const [visibleGeco, setVisibleGeco] = useState(true);
+  const [visibleGoodHub, setVisibleGoodHub] = useState(false);
+  const [visibleGA, setVisibleGA] = useState(false);
   const [visibleNCS, setVisibleNCS] = useState(false);
   const [visibleNUS, setVisibleNUS] = useState(false);
 
+  const handleGecoButtonClick = () => {
+    setVisibleGeco(true);
+    setVisibleGoodHub(false);
+    setVisibleGA(false);
+    setVisibleNCS(false);
+    setVisibleNUS(false);
+  };
+
+  const handleGoodHubButtonClick = () => {
+    setVisibleGeco(false);
+    setVisibleGoodHub(true);
+    setVisibleGA(false);
+    setVisibleNCS(false);
+    setVisibleNUS(false);
+  };
+
   const handleGAButtonClick = () => {
+    setVisibleGeco(false);
+    setVisibleGoodHub(false);
     setVisibleGA(true);
     setVisibleNCS(false);
     setVisibleNUS(false);
   };
 
   const handleNCSButtonClick = () => {
+    setVisibleGeco(false);
+    setVisibleGoodHub(false);
     setVisibleGA(false);
     setVisibleNCS(true);
     setVisibleNUS(false);
   };
 
   const handleNUSButtonClick = () => {
+    setVisibleGeco(false);
+    setVisibleGoodHub(false);
     setVisibleGA(false);
     setVisibleNCS(false);
     setVisibleNUS(true);
@@ -121,24 +145,27 @@ const AboutMe = () => {
                 <span style={{ backgroundColor: "#2E5A88" }}>About Me</span>
               </h4>
               <p align="justify">
-                Hello! My name is Azheem and I enjoy seeing my creations come to
-                life.
+                Hello! I'm Azheem, and I love bringing my creations to life.
               </p>
               <p align="justify">
-                My journey in web development started when I stumbled upon The
-                Odin Project and without realising, I was spending hours deeply
-                engrossed in learning how to code.
+                My software development journey started when I stumbled upon a
+                full stack web development programme online called The Odin
+                Project. Without realising, I was spending hours engrossed in
+                completing the modules.
               </p>
               <p align="justify">
-                Prior to that, my first job out of university was as
-                Infrastructure Engineer, where I learnt about computer systems
-                architecture. In university, I majored in Mechanical Engineering
-                where my final year project focused on Computational Fluid
-                Dynamics in studying the airflow within the engine bay of a
-                Wing-in-Ground Aircraft.
+                I was working then as an Infrastructure Engineer, managing
+                virtual machines and servers, but soon realized my true calling
+                was in software development.
               </p>
               <p align="justify">
-                Join me in my journey and see my projects below!
+                I left my job to dive into a full-time full-stack web
+                development bootcamp at General Assembly. After graduating, I
+                joined a Series-B tech-logistics startup as a Full Stack
+                Developer, where I work today.
+              </p>
+              <p align="justify">
+                Join me on my journey and check out my projects below!
               </p>
             </div>
             <br />
@@ -154,6 +181,18 @@ const AboutMe = () => {
               >
                 <div className="col-2 ">
                   <ButtonGroup size="sm" vertical className="gap-2">
+                    <Button
+                      variant="outline-light"
+                      onClick={handleGecoButtonClick}
+                    >
+                      Geco
+                    </Button>
+                    <Button
+                      variant="outline-light"
+                      onClick={handleGoodHubButtonClick}
+                    >
+                      GoodHub SEA
+                    </Button>
                     <Button
                       variant="outline-light"
                       onClick={handleGAButtonClick}
@@ -175,6 +214,89 @@ const AboutMe = () => {
                   </ButtonGroup>
                 </div>
                 <div className="col">
+                  <div className={visibleGeco ? "Geco" : "d-none"}>
+                    <h5>Full Stack Developer</h5>
+                    <h6>
+                      <i>Geco Asia</i>
+                    </h6>
+                    <h6>Aug 2023 - Present</h6>
+                    <ul style={{ padding: "0" }}>
+                      <li>
+                        Worked with a Series-B tech-logistics startup and
+                        heavily involved in digital transformation project
+                      </li>
+                      <li>
+                        Develop interactive, user-friendly, and robust internal
+                        tools including a Client Relationship Management (CRM)
+                        application using React, TypeScript, and Ant Design
+                      </li>
+                      <li>
+                        Created comprehensive unit test cases for front-end
+                        React applications using Jest framework, achieving a
+                        test coverage of at least 95%
+                      </li>
+                      <li>
+                        Built APIs using Golang for multiple projects:
+                        <ul>
+                          <li>
+                            Developed RESTful API for an internal CRM platform
+                            which allow users to create, read, update, and
+                            delete (CRUD) latest updates to numerous client
+                            profiles
+                          </li>
+                          <li>
+                            Developed RESTful API to handle incoming client
+                            order data in alignment with delivery partners’
+                            specifications, facilitating efficient data exchange
+                            with the delivery partners’ API / Webhook systems
+                          </li>
+                          <li>
+                            Assisted in development of microservices, utilising
+                            Golang’s Concurrency feature to execute pipelines,
+                            as part of an overall microservices architecture
+                            deployed on Docker
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        Supported deployment of applications onto AWS services
+                        including DynamoDB and EC2
+                      </li>
+                    </ul>
+                  </div>
+                  <div className={visibleGoodHub ? "GoodHub" : "d-none"}>
+                    <h5>Software Engineer (Volunteer)</h5>
+                    <h6>
+                      <i>GoodHub SEA</i>
+                    </h6>
+                    <h6>Jun 2023 - Present</h6>
+                    <ul style={{ padding: "0" }}>
+                      <li>
+                        Volunteered as a Software Engineer for GoodHub SEA — a
+                        non-profit organisation that leverages technology to
+                        empower individuals, foster collaboration, and drive
+                        innovation to create positive societal impact in
+                        Southeast Asia's digital economy
+                      </li>
+                      <li>
+                        Developed a scalable backend system written in
+                        TypeScript, utilising Express framework, to efficiently
+                        handle user sign up and login processes
+                      </li>
+                      <li>
+                        Implemented features to the backend system such as
+                        sending OTP email using Node Fetch, password encryption
+                        using bcrypt, managing user authorisation using JSON Web
+                        Token (JWT), and storing JWT securely in cookies to
+                        further enhance data security
+                      </li>
+                      <li>
+                        Integrated Google authentication to allow users to
+                        conveniently login and sign up using their Google
+                        accounts
+                      </li>
+                    </ul>
+                  </div>
                   <div className={visibleGA ? "GA" : "d-none"}>
                     <h5>Software Engineering Bootcamp Graduate</h5>
                     <h6>
