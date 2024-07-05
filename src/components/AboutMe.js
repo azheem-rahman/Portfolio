@@ -214,7 +214,10 @@ const AboutMe = () => {
                   </ButtonGroup>
                 </div>
                 <div className="col">
-                  <div className={visibleGeco ? "Geco" : "d-none"}>
+                  <div
+                    className={visibleGeco ? "Geco" : "d-none"}
+                    style={{ margin: "1rem" }}
+                  >
                     <h5>Full Stack Developer</h5>
                     <h6>
                       <i>Geco Asia</i>
@@ -264,7 +267,10 @@ const AboutMe = () => {
                       </li>
                     </ul>
                   </div>
-                  <div className={visibleGoodHub ? "GoodHub" : "d-none"}>
+                  <div
+                    className={visibleGoodHub ? "GoodHub" : "d-none"}
+                    style={{ margin: "1rem" }}
+                  >
                     <h5>Software Engineer (Volunteer)</h5>
                     <h6>
                       <i>GoodHub SEA</i>
@@ -297,7 +303,10 @@ const AboutMe = () => {
                       </li>
                     </ul>
                   </div>
-                  <div className={visibleGA ? "GA" : "d-none"}>
+                  <div
+                    className={visibleGA ? "GA" : "d-none"}
+                    style={{ margin: "1rem" }}
+                  >
                     <h5>Software Engineering Bootcamp Graduate</h5>
                     <h6>
                       <i>General Assembly</i>
@@ -314,7 +323,10 @@ const AboutMe = () => {
                       </li>
                     </ul>
                   </div>
-                  <div className={visibleNCS ? "NCS" : "d-none"}>
+                  <div
+                    className={visibleNCS ? "NCS" : "d-none"}
+                    style={{ margin: "1rem" }}
+                  >
                     <h5>Infrastructure Engineer</h5>
                     <h6>
                       <i>NCS Group</i>
@@ -332,7 +344,10 @@ const AboutMe = () => {
                       </li>
                     </ul>
                   </div>
-                  <div className={visibleNUS ? "NUS" : "d-none"}>
+                  <div
+                    className={visibleNUS ? "NUS" : "d-none"}
+                    style={{ margin: "1rem" }}
+                  >
                     <h5>Undergraduate Student</h5>
                     <h6>
                       <i>National University of Singapore</i>

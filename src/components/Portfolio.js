@@ -17,7 +17,7 @@ const Portfolio = () => {
   return (
     <div id="portfolio">
       <div className="container" style={{ paddingTop: "10vh" }}>
-        <h2>Projects</h2>
+        <h2>Projects (work in progress!)</h2>
         <div className="row">
           <div className="col">
             {/* BuyHDB Card */}
