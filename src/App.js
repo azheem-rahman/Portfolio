@@ -25,7 +25,7 @@ function App() {
         </div>
         <br />
         <div className="container d-flex align-items-center justify-content-center">
-          <h6>Created and Designed by Azheem. Built using ReactJS.</h6>
+          <h6>Created and Designed by Azheem.</h6>
         </div>
       </div>
     </BrowserRouter>
