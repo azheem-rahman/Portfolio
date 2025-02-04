@@ -11,7 +11,7 @@ const NavBar = () => {
         fixed="top"
         variant="dark"
         expand="sm"
-        style={{ background: "#0b0b45" }}
+        style={{ background: "#161c2d" }} /* navbar background colour */
       >
         <Container className="align-middle">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
