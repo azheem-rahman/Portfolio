@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Nav, Navbar, Button } from "react-bootstrap";
+import { Container, Nav, Navbar } from "react-bootstrap";
 import { HashLink } from "react-router-hash-link";
 
 import styles from "./NavBar.module.css";
@@ -38,13 +38,15 @@ const NavBar = () => {
               >
                 Projects
               </HashLink>
-              <Nav.Link
+              <a
                 href="https://drive.google.com/file/d/1OCmNJwYmBL99OXM_wobIMT-L7jkQvyE8/view?usp=sharing"
                 className={styles.HashLink}
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{ textDecoration: "none" }}
               >
                 Resume
-              </Nav.Link>
+              </a>
             </Nav>
           </Navbar.Collapse>
         </Container>

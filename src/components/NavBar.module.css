@@ -1,44 +1,39 @@
+/* Start: underline animation */
 .HashLink {
   position: relative;
   text-decoration: none;
   color: white;
   letter-spacing: 0.031rem;
-  /* letter-spacing: 0.5px; */
-  padding: 0.625rem;
-  /* padding: 10px; */
+  padding: 0.4rem 0;
+  display: inline-block;
+  margin: 0 1rem; /* separation between element in navbar */
+  overflow: hidden;
 }
 
-.HashLink::before,
 .HashLink::after {
   content: "";
   position: absolute;
-  height: 0.188rem;
-  /* height: 3px; */
-  width: 0;
-  background-color: white;
-  transition: 0.5s;
-}
-
-.HashLink::after {
   left: 0;
-  bottom: 0.313rem;
-  /* bottom: 5px; */
+  bottom: 0.188rem;
+  height: 0.188rem;
+  width: 100%; /* start with full width */
+  background-color: white;
+  transform: scaleX(0); /* underline initially hidden */
+  transform-origin: right; /* underline disappears from left */
+  transition: transform 0.4s ease-in-out;
 }
 
-.HashLink::before {
-  right: 0;
-  top: 0.313rem;
-  /* top: 5px; */
+.HashLink:hover::after {
+  transform-origin: left; /* underline appears from left */
+  transform: scaleX(1); /* underline expands full width */
+}
+
+.HashLink:not(:hover)::after {
+  transform-origin: right; /* underline disappears from left to right */
+  transform: scaleX(0);
 }
 
 .HashLink:hover {
   color: white;
 }
-.HashLink:hover:after,
-.HashLink:hover:before {
-  width: 100%;
-}
-
-.Button {
-  font-size: 0.9rem;
-}
+/* End */
