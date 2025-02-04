@@ -4,9 +4,11 @@
   place-items: center;
   text-align: center;
   width: 100%;
+  padding: 1em;
 }
 
 .typewriter {
+  display: inline-block;
   width: fit-content;
 }
 
@@ -15,7 +17,7 @@
   border-right: 0.15em solid white; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: 0.15em; /* Adjust as needed */
+  letter-spacing: 0.15em;
   animation: typing 4s steps(9, end), blink-caret 0.5s step-end infinite;
 }
 
