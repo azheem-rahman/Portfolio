@@ -229,9 +229,10 @@ const AboutMe = () => {
                         heavily involved in digital transformation project
                       </li>
                       <li>
-                        Develop interactive, user-friendly, and robust internal
-                        tools including a Client Relationship Management (CRM)
-                        application using React, TypeScript, and Ant Design
+                        Developed interactive, user-friendly, and robust
+                        internal tools including a Client Relationship
+                        Management (CRM) application using React, TypeScript,
+                        and Ant Design
                       </li>
                       <li>
                         Created comprehensive unit test cases for front-end
