@@ -1,4 +1,4 @@
-/* Start: underline animation */
+/* general styling for HashLink */
 .HashLink {
   position: relative;
   text-decoration: none;
@@ -10,6 +10,7 @@
   overflow: hidden;
 }
 
+/* underline effect */
 .HashLink::after {
   content: "";
   position: absolute;
@@ -20,7 +21,7 @@
   background-color: white;
   transform: scaleX(0); /* underline initially hidden */
   transform-origin: right; /* underline disappears from left */
-  transition: transform 0.4s ease-in-out;
+  transition: transform 0.5s ease-in-out;
 }
 
 .HashLink:hover::after {
@@ -28,12 +29,13 @@
   transform: scaleX(1); /* underline expands full width */
 }
 
-.HashLink:not(:hover)::after {
-  transform-origin: right; /* underline disappears from left to right */
-  transform: scaleX(0);
-}
-
 .HashLink:hover {
   color: white;
 }
-/* End */
+
+/* Remove underline effect on mobile */
+@media (max-width: 575px) {
+  .HashLink::after {
+    transform: scaleX(0) !important;
+  }
+}
