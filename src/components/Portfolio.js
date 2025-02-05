@@ -1,15 +1,11 @@
 import React from "react";
 import { Button, ButtonGroup, Card } from "react-bootstrap";
 
-import BuyHDBLoginPage from "../assets/BuyHDBLoginPage.jpg";
 import BuyHDBSearchPage from "../assets/BuyHDBSearchPage.jpg";
 
 import IRRLoginPage from "../assets/IRRLoginPage.jpg";
 import IRRWorkerHome from "../assets/IRRWorkerHome.jpg";
 import IRRWorkerRequestItem from "../assets/IRRWorkerRequestItem.jpg";
-import IRRDonorHome from "../assets/IRRDonorHome.jpg";
-import IRRDonorItemStatus from "../assets/IRRDonorItemStatus.jpg";
-import IRRDonorDropOff from "../assets/IRRDonorDropOff.jpg";
 
 import ColourPopScreenshot from "../assets/ColourPopScreenshot.jpg";
 
