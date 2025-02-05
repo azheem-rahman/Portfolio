@@ -139,21 +139,21 @@ const Portfolio = () => {
                         <img
                           className="card-img-top"
                           src={IRRLoginPage}
-                          alt="Card image cap"
+                          alt="IRR-login"
                         />
                       </div>
                       <div className="col">
                         <img
                           className="card-img-top"
                           src={IRRWorkerHome}
-                          alt="Card image cap"
+                          alt="IRR-worker-home"
                         />
                       </div>
                       <div className="col">
                         <img
                           className="card-img-top"
                           src={IRRWorkerRequestItem}
-                          alt="Card image cap"
+                          alt="IRR-worker-request-item"
                         />
                       </div>
                     </div>
