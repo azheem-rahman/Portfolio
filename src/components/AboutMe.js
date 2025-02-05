@@ -42,9 +42,10 @@ const AboutMe = () => {
     {
       name: "GA",
       logo: GeneralAssemblyLogo,
-      title: "Student (Software Engineering Immersive Programme, Full-Time)",
+      title: "Student",
       date: "Aug 2023 - Nov 2024",
       description: [
+        "Software Engineering Immersive Programme, Full-Time",
         "Intensive training in full-stack web development with a project-based approach",
         "Developed frontend applications using React, JavaScript, and CSS",
         "Built RESTful APIs with Express.js and integrated them with MongoDB and PostgreSQL databases",
@@ -77,14 +78,7 @@ const AboutMe = () => {
 
   return (
     <div id="about-me">
-      <div
-        className="container"
-        style={{
-          minHeight: "100vh",
-          paddingTop: "10vh",
-          display: "grid",
-        }}
-      >
+      <div className="container" style={{ paddingTop: "10vh" }}>
         <div className="row align-items-center d-flex flex-column flex-lg-row">
           {/* Grouped Column */}
           <div className="d-flex justify-content-center pb-4 col-12 col-lg-auto gap-3">
@@ -191,7 +185,7 @@ const AboutMe = () => {
           <h4>
             <span style={{ backgroundColor: "#2E5A88" }}>My Journey</span>
           </h4>
-          <div className="container mt-4">
+          <div className="container-fluid mt-4">
             {/* each stage card */}
             <ul className={styles.timeline}>
               {timelineItems.map((item) => {
